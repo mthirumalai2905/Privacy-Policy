@@ -59,6 +59,7 @@ mark{
   .privacy-policy-section,
   .terms-section {
     padding: 10px;
+    overflow-x: hidden;
   }
 
   h2 {
