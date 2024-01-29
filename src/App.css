@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+body{
+  font-family: sans-serif;
+ color: #FAFAFA;
+ overflow-x: hidden;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 200px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background-color: #610101;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.privacy-policy-section{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding-left: 150px;
+  padding-right: 150px;
+  color: #5A5A5A;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+h2{
+  color: black;
+  font-weight: 545;
+  text-align: left;
+}
+p{
+  color: #5A5A5A;
+}
+mark{
+  background-color: #e45b5b;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.terms-section{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding-left: 150px;
+  padding-right: 150px;
+  color: #5A5A5A;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
