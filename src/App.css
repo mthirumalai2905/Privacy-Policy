@@ -62,3 +62,9 @@ mark{
     font-size: 18px;
   }
 }
+
+.home-page{
+  color: black;
+  font-size: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
